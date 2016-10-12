@@ -1,5 +1,10 @@
 package cn.longfox.tutorialspoint.java.example.Strings;
-
+/**
+ * 类的功能：实现一个字符串按特定的标识进行分隔
+ * 使用的方法为：split
+ * @author Administrator
+ *
+ */
 public class SplitString {
 	/**
 	 * @param args
