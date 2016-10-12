@@ -30,7 +30,7 @@ public class CreateStringOptimization {
 			variables[i].intern();
 		}
 		long endTime2 = System.currentTimeMillis();
-		System.out.println("使用intern方法创建字符串对象的时间花费："+(endTime2-startTime1)+"ms");
+		System.out.println("使用intern方法创建字符串对象的时间花费："+(endTime2-startTime2)+"ms");
 		
 		
 		
