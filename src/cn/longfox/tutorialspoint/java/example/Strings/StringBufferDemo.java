@@ -1,5 +1,9 @@
 package cn.longfox.tutorialspoint.java.example.Strings;
-
+/**
+ * 
+ * @author Administrator
+ *
+ */
 
 public class StringBufferDemo {
 	public static void main(String[] args) {
