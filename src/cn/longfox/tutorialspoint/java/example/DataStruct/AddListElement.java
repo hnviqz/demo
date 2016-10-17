@@ -1,7 +1,13 @@
 package cn.longfox.tutorialspoint.java.example.DataStruct;
-
+/**
+ * 通过LinkedList的方法向链表中加入指定位置的元素
+ */
 import java.util.LinkedList;
-
+/**
+ * 
+ * @author Administrator
+ *
+ */
 public class AddListElement {
 	public static void main(String []args)
 	{
