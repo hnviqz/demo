@@ -15,6 +15,5 @@ public class SearchCharInsideOfString {
 		System.out.println(list);
 		
 		System.out.println("the position 2 element is: "+list.indexOf("3"));
-		
 	}
 }
