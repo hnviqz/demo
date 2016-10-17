@@ -48,6 +48,11 @@ public class InToPost {
 		System.out.println(output);
 		return output;
 	}
+	
+	/**
+	 * 取出栈中的元素，检测是否为'('，如果为真，则停止检查，否则把字符连接到output中。
+	 * @return
+	 */
 
 	public String gotParen() {
 		while (!stack.isEmpty()) {
@@ -57,6 +62,8 @@ public class InToPost {
 			else
 				output += ch;
 		}
+		
+		System.out.println(output);
 		return output;
 	}
 
@@ -88,6 +95,14 @@ public class InToPost {
 		InToPost theTrans = new InToPost(input);
 		output = theTrans.doTrans();
 		System.out.println("Postfix is " + output + '\n');
+	}
+	
+	public void stringToStack( ){
+		char[] arr = input.toCharArray();
+		for(int i=0;i<arr.length;i++)
+		{
+			stack.push(arr[i]);
+		}
 	}
 
 	public class Stack {
