@@ -56,6 +56,15 @@ class HourlyEmployee extends Employee {
 
 	public HourlyEmployee(String name, int age) {
 		super(name, age);
+		this.hourRate = 10;
+	}
+
+	public int getHourRate() {
+		return hourRate;
+	}
+
+	public void setHourRate(int hourRate) {
+		this.hourRate = hourRate;
 	}
 }
 
