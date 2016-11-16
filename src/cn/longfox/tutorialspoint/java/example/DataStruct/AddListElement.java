@@ -21,6 +21,6 @@ public class AddListElement {
 		llist.addFirst("0");
 		llist.addLast("7");
 		System.out.println("add element after list: "+llist);
-		System.out.println("list size: "+llist.size() );
+		System.out.println("list size: "+llist.size() ); //test
 	}
 }
